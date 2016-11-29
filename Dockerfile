@@ -1,5 +1,6 @@
 FROM node:alpine
 
+RUN apk -u add git
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
